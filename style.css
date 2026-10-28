@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+}
+
+.header{
+    color: white;
+    background-color: #1F2937;
+    padding: 1rem 10rem 5rem;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.logo-text{
+    font-size: 24px;
+    font-family: Robo;
+    color: #F9FAF8;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-hero-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-hero-text
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: auto;
+    margin-top: 5rem;
+}
+
+.sign-up-button{
+   color: white;
+   background-color: #3882F6;
+   border-radius: 5px;
+   margin-top: 10px;
+   padding: 6px;
+}
+
