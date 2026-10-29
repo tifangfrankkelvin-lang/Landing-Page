@@ -94,3 +94,22 @@ ul{
     width: 150px;
     height: 200px;
 }
+
+.quote{
+    padding: 5rem 13rem;
+    margin: 4rem 0;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 700;
+}
