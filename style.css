@@ -50,12 +50,13 @@ ul{
     margin-top: 5rem;
 }
 
-.sign-up-button{
+.action-button{
    color: white;
    background-color: #3882F6;
    border-radius: 5px;
    margin-top: 10px;
-   padding: 6px;
+   padding: 5px 16px;
+   box-sizing: content-box;
 }
 
 .illustration-grid{
@@ -112,4 +113,22 @@ ul{
     text-align: end;
     font-size: 20px;
     font-weight: 700;
+}
+
+.call-to-action{
+    margin: 5rem 10rem;
+    padding: 3rem 6rem;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-title{
+    font-size: 32px;
+    font-weight: 200;
+}
+.call-to-action .action-button{
+    border:solid white;
 }
