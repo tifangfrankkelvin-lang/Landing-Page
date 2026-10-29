@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -16,7 +17,6 @@ body{
  
 .logo-text{
     font-size: 24px;
-    font-family: Robo;
     color: #F9FAF8;
 }
 
@@ -131,4 +131,12 @@ ul{
 }
 .call-to-action .action-button{
     border:solid white;
+}
+
+footer{
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
